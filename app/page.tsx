@@ -18,7 +18,7 @@ export default function Home() {
         };
     }, [intervalId]);
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = async (e:any) => {
         e.preventDefault();
         setError('');
         setProgress(0);
